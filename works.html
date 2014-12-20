@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Мои работы</title>
+</head>
+<body>
+  <div class="header">
+   <div class="conteiner">
+      <div class="logo">
+        <a href="index.html">LOFTSCHOOL</a>
+        <div>комплексное обучение web разработке</div>
+      </div>
+      <div class="icon">
+        <a href="https://vk.com/k.toha" class="vk">Вонтакте</a>
+        <a href="https://twitter.com/AntonKaverin" class="twt">Twitter</a>
+        <a href="https://www.facebook.com/toha.kaverin" class="fb">Facebook</a>
+        <a href="https://github.com/Nadwolf" class="git">Github</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="aside">
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="index.html">Обо мне</a>
+          </li>
+          <li class="active">
+            <a href="works.html">Мои работы</a>
+          </li>
+          <li>
+            <a href="contact.html">Связаться со мной</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contakt">
+        <div class="h1">Контакты</div> 
+        <ul>
+         <li>
+           <i class="email"></i>
+           <a href="mailto:gt-wolf21@yandex.ru">gt-wolf21@yandex.ru</a>
+         </li>
+         <li>
+           <i class="phone"></i>
+           <a href="tel:+380669447701">+380669447701</a>
+          </li>
+         <li>
+           <i class="skype"></i>
+           <a href="skype:ukr.anton?chat">ukr.anton</a>
+         </li>
+       </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Мои работы</h2>
+      <div class="portfolio">
+        <ul>
+          <li>
+            <img src="img/slide1.png" alt="слайд">
+            <a class="title" href="www.site.ru">www.site.ru</a>
+            <p class="description">Информация о проекте 1 превью 2 строки....</p>
+            <a href="#" class="hover"><span>www.site1.ru</span></a>
+          </li>
+          <li>
+            <img src="img/slide2.png" alt="слайд">
+            <a class="title" href="www.site.ru">www.site.ru</a>
+            <p class="description">Информация о проекте 1 превью 2 строки....</p>
+            <a href="#" class="hover"><span>www.site2.ru</span></a>
+          </li>
+          <li>
+            <img src="img/slide3.png" alt="слайд">
+            <a class="title" href="www.site.ru">www.site.ru</a>
+            <p class="description">Информация о проекте 1 превью 2 строки....</p>
+            <a href="#" class="hover"><span>www.site3.ru</span></a>
+          </li>
+          <li>
+            <img src="img/slide4.png" alt="слайд">
+            <a class="title" href="www.site.ru">www.site.ru</a>
+            <p class="description">Информация о проекте 1 превью 2 строки....</p>
+            <a href="#" class="hover"><span>www.site4.ru</span></a>
+          </li>
+          <li class="add-project">
+            <img src="img/pic1.png" alt="слайд">
+            <a href="#modal" class="openModal">Добавить проект</a>
+            <p>Добавить проект</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div>
+      <div class="modal-header">
+        <h2>Добавление проекта</h2>
+        <a href="#close" title="Закрыть">Закрыть</a>
+      </div>
+      <div class="modal-add-project">
+        <form action="">
+          <div class="form-group">
+            <label for="name-project">Название проекта</label>
+            <input type="text" id="name-project" placeholder="Введите название">
+          </div>
+          <div class="form-group">
+            <label for="upload">Картинка проекта</label>
+            <div class="fileform">Загрузите изображение
+              <div class="selectbutton">Обзор</div>
+              <input id="upload" type="file" name="upload" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="url">URL проекта</label>
+            <input type="text" id="url" placeholder="Добавьте ссылку">
+          </div>
+          <div class="form-group">
+            <label for="text">Описание</label>
+            <textarea id="text" rows="5" placeholder="Пара слов о Вашем проекте"></textarea>
+          </div>
+          <button type="submit">Добавить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2014, Это мой сайт, пожалуйста не копируйте и не воруйте его</p>
+  </div>
+</body>
+</html>
