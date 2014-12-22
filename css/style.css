@@ -620,7 +620,7 @@ h2 {
 }
 
 .modal-add-project {
-  padding: 8px 25px 15px 20px;
+  padding: 8px 25px 0 20px;
 }
 
 .modal-add-project label {
@@ -727,6 +727,7 @@ textarea[placeholder] {
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 2px 1px 0 #3ba8c0;
+  margin-bottom: 15px;
 }
 
 .modal-add-project button:active {
@@ -834,4 +835,10 @@ textarea[placeholder] {
 
 .contact button {
   margin-top: 17px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
 }
